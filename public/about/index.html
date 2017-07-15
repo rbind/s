@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About | Culture &#43; Analysis</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico">
+<link rel="stylesheet" href="/css/terms-octicons-hljs-style.css">
+
+
+<link rel="stylesheet" href="/css/font-awesome.min-4.7.0.css">
+
+<link rel="stylesheet" href="/css/octicons-3.0.1.css">
+<link rel="stylesheet" href="/css/octicons-2.4.1.css"> 
+<link href="//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet"> 
+
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/post/">Posts</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">About</span></h1>
+
+
+
+<p class="terms">
+  
+  
+  
+  
+  
+</p>
+
+
+</div>
+
+<main>
+
+
+<p><center></p>
+
+<h4 id="processing-society-i-class-octicon-octicon-watch-i"><em>processing society&hellip; <i class="octicon octicon-watch"></i></em></h4>
+
+<p></center></p>
+
+<h3 id="grateful-to-the-amazing-work-of-yihui-xie-https-yihui-name">Grateful to the amazing work of Yihui Xie <a href="https://yihui.name/">https://yihui.name/</a> !!!</h3>
+
+<p><em>The aim is to use R based packages and tools for website creation and maintainence</em></p>
+
+<p>Main documentation for setup &amp; customization:</p>
+
+<ul>
+<li>From start to finish <a href="https://apreshill.rbind.io/post/up-and-running-with-blogdown/">https://apreshill.rbind.io/post/up-and-running-with-blogdown/</a></li>
+<li>Hugo-Xmin Theme Information <a href="https://xmin.yihui.name/about/">https://xmin.yihui.name/about/</a></li>
+<li>Rbind Domain Support <a href="https://support.rbind.io/about/">https://support.rbind.io/about/</a></li>
+</ul>
+
+<p>My Customization:</p>
+
+<ul>
+<li><strong>Until July 13, 2016</strong></li>
+<li>Added &lsquo;Posts&rsquo; to menu through <code>config.toml</code></li>
+<li>Removed &lsquo;Notes&rsquo; . Delete <code>content/notes</code> directory. [done]</li>
+<li>Removed &lsquo;Posts&rsquo; from appearing in the Home Page. In <code>layouts/_default/list.html</code> Add if condition. [done]</li>
+<li><a href="https://github.com/yihui/hugo-xmin/pull/5">Enable highlight.js for syntax highlighting of code blocks</a>  <code>layouts/partials/foot_custom.html</code> and <code>layouts/partials/head_custom.html</code> and <code>static/css/terms-octicons-hljs-style.css</code> add <code>.pre</code> style</li>
+<li>Added <a href="https://github.com/yihui/hugo-xmin/commit/f1e3a90489ec61d903429a582a058b8a1b4d7093">Categories &amp; Tags</a> to every post page. In <code>layouts/_default/single.html</code> and <code>static/css/terms-octicons-hljs-style.css</code> add <code>.terms</code> style</li>
+<li>Changed posts layout in <code>config.toml</code> to <code>post = &quot;/post/:slug/&quot;</code> [done]</li>
+<li>Changed Date Format in <code>layouts/_defaults/list.html</code> to <code>2006, Jan 2</code> and in  <code>layouts/_defaults/single.html</code> to <code>Jan 2, 2006</code> [done]</li>
+<li>Added Octicons &amp; FontAwesome CSS to <code>layouts/partials/head_custom.html</code> for specific icons e.g. telescope <i class="octicon octicon-telescope"></i> , microscope <i class="octicon octicon-microscope"></i> etc&hellip; [done]</li>
+<li>Added CSS code <code>.mega64-octicon</code> for 64px icons in <code>/static/css/terms-octicons-hljs-style.css</code> add <code>.megaocticon</code> and <code>.mega64octicon</code> style [done]</li>
+<li>Copied FontAwesome and Octicon fonts and CSS to local directory <code>static/css</code> and <code>static/fonts</code> instead of CDN. [done]</li>
+<li>Added <code>favicon.ico</code> to <code>static/images/</code> and link to file <code>layouts/partial/head_custom.html</code> [done]</li>
+</ul>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+</script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+
+<script>
+hljs.configure({languages: ['r','bash','css','html','json','tex','latex','sql','toml','yaml']});
+hljs.initHighlightingOnLoad();
+</script>
+
+  
+  <hr/>
+  &copy; <a href="https://s.rbind.io/">Vodlo Manga</a> 2017
+  
+  </footer>
+  </body>
+</html>

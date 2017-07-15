@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Culture &#43; Analysis</title>
+    <link>/</link>
+    <description>Recent content in Home on Culture &#43; Analysis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test Post for Blogdown</title>
+      <link>/post/test-post-for-blogdown/</link>
+      <pubDate>Tue, 04 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/test-post-for-blogdown/</guid>
+      <description>Here we are tyring to publish some things about R.
+R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>processing society&amp;hellip;  
+Grateful to the amazing work of Yihui Xie https://yihui.name/ !!! The aim is to use R based packages and tools for website creation and maintainence
+Main documentation for setup &amp;amp; customization:
+ From start to finish https://apreshill.rbind.io/post/up-and-running-with-blogdown/ Hugo-Xmin Theme Information https://xmin.yihui.name/about/ Rbind Domain Support https://support.rbind.io/about/  My Customization:
+ Until July 13, 2016 Added &amp;lsquo;Posts&amp;rsquo; to menu through config.toml Removed &amp;lsquo;Notes&amp;rsquo; . Delete content/notes directory.</description>
+    </item>
+    
+  </channel>
+</rss>
