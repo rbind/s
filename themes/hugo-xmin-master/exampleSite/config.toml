@@ -1,16 +1,16 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Culture + Analysis"
+title = "A minimal Hugo website"
 theme = "hugo-xmin"
 googleAnalytics = ""
 disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 
 [permalinks]
-    post = "/post/:slug/"
-
+    post = "/post/:year/:month/:day/:slug/"
+    note = "/note/:year/:month/:day/:slug/"
 
 [[menu.main]]
     name = "Home"
@@ -21,21 +21,17 @@ footnotereturnlinkcontents = "↩"
     url = "/about/"
     weight = 2
 [[menu.main]]
-    name = "Posts"
-    url = "/post/"
-    weight = 3
-[[menu.main]]
     name = "Categories"
     url = "/categories/"
-    weight = 4
+    weight = 3
 [[menu.main]]
     name = "Tags"
     url = "/tags/"
-    weight = 5
+    weight = 4
 [[menu.main]]
     name = "Subscribe"
     url = "/index.xml"
 
 [params]
     description = "A website built through Hugo and blogdown."
-    footer = "&copy; [Vodlo Manga](https://s.rbind.io/) 2017"
+    footer = "&copy; [Yihui Xie](https://yihui.name) 2017 | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
